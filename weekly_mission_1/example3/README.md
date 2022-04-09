@@ -1,3 +1,3 @@
 # Resultado del ejemplo 3 - Diferentes formas de exportar funciones
 
-![Resultado del ejemplo 2](../assets/example2.png "Exportando funciones entre scripts con CommonJS")
+![Resultado del ejemplo 3](../assets/example3.png "Diferentes formas de exportar funciones")

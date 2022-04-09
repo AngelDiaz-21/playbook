@@ -15,5 +15,5 @@
 */
 
 module.exports.verbose = (message) => {
-    console.log(`verbose: ${message}`)
+    console.log(`Verbose de logger 2: ${message}`)
   }
