@@ -1,4 +1,4 @@
-console.log("Creación de un objeto vacío")
+console.log("Ejemplo 1: Creación de un objeto vacío")
 const myFirstObject = {} //empty object
 console.log(myFirstObject)
 // Interpolar variables
