@@ -1,13 +1,17 @@
-class Student {
-    // El constructor nos permite instanciar un objeto y asignarle atributos, this nos ayuda a realizar esto.
-    constructor(name, age, subjects) {
+// Ejemplo 4: Métodos en los objetos
+class Repository {
+    constructor(name, author, language, stars, saludos) {
         this.name = name
-        this.age = age
-        this.subjects = subjects
+        this.author = author
+        this.language = language
+        this.stars = stars
+        this.saludos = saludos
+    }
+
+    getInfo() { // es una función que ejecutará cualquier objeto instanciado de esta clase
+        return `Repository ${this.name} has ${this.stars} stars and the author is ${this.author}. ${this.saludos} `
     }
 }
-
-// Crear un objeto de la clase Student (esto se le llama instanciación)
-const carloStudent = new Student("Angel", 23, ["NodeJs", "Python"])
-console.log("Ejemplo 3: Instanciar un objeto con atributos")
-console.log(carloStudent)
+console.log("Ejemplo 4: Métodos en los objetos")
+const myRepo = new Repository("LaunchX", "angel", "js", 100, "Saludos")
+console.log(myRepo.getInfo())
