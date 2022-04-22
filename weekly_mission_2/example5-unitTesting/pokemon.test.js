@@ -9,5 +9,5 @@ test('1) Create a new object pokemon', () => {
     
 // test('2) Create a new type pokemon', () => {
 //     const myPokemon = new Pokemon(10)
-//     expect(myPokemon.age).toBe(10);
-// }) 
+//     expect(myPokemon.age).toBeInt(10);
+// });
