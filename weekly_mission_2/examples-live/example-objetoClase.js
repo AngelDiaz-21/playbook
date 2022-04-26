@@ -20,12 +20,19 @@ class Ajolonauta {
         this.color = color
     }
 
+
+    sayHello(){
+        // return "Hey! Hello"
+        return `Hola soy ${this.name} y tengo ${this.age} años`
+    }
+
 }
 
 // * Haremos un objeto de clase
 // * Se instancia un objeto
 const wooopa = new Ajolonauta("Woopa", "Node JS", 18, "Pink")
 console.log(wooopa)
+console.log(wooopa.sayHello())
 
 // A partir de la definicion de una clase se pueden instancias más objetos. SI utilizamos la analogía del molde de galletas, el molde seria la clase y las galletas del molde serían las instancias de los objetos
 // Estamons instanciando 3 objetos diferentes de la misma clase
