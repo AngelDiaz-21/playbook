@@ -3,5 +3,10 @@
 ////Mensajes
 // ->Usuario destinatario
 // ->Lista de mensajes
-// ->Usuarios etiquetados
-// ->Usuarios etiquetados
+
+const ig_mensajes = {
+    usuarioDestinatario: "",
+    listaMensajes: "",
+    nuevoMensajeDestinatario: "",
+    buscarDestinatario: ""
+}
